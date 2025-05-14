@@ -49,12 +49,12 @@ export default function Module1() {
             Cáp 1 - Lidando com futuro e possibilidades
           </a>
         </li>
-        {/* <li>
+        <li>
             <a href="#cap2" className="text-blue-700 hover:underline">
-              Cáp 2 - Introdução ao backend
+              Cáp 2 - Criando o banco MongoDB Atlas
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#cap3" className="text-blue-700 hover:underline">
               Cáp 3 - Seu primeiro servidor
             </a>
@@ -146,7 +146,7 @@ export default function Module1() {
           <li>
             {" "}
             <strong>async:</strong> declara uma função como assíncrona e faça
-            com que ela retorne uma Promisse (um objeto que pode existir ou não,
+            com que ela retorne uma Promise (um objeto que pode existir ou não,
             assim como a sua tradução literal sugere).
           </li>
           <li>
@@ -159,14 +159,39 @@ export default function Module1() {
             <code>{codigo3}</code>
           </pre>
           <h3 className="font-black text-xl">Saída:</h3>
-          <p className="mb-4">
+          <p className="">
             Iniciando... <br />
             (espera 2 segundos) <br />
             Esperou 2 segundos <br />
-            Finalizado 
+            Finalizado
           </p>
         </ul>
-        <hr className="mt-24" />
+        <hr className="mt-16 mb-4" />
+
+        <h2 id="cap2" className="text-2xl font-bold mb-4">
+          📘 Capítulo 2 – Criando o banco de dados MongoDB Atlas
+        </h2>
+
+        <p className="mb-4">
+          Gravei um vídeo para que vocês possam criar o seu banco de dados
+          acessível pela internet, por meio do serviço Atlas do MongoDB,
+          posteriormente vamos migrar esse banco para ser local, e assim, você
+          mesmo hospedar o seu banco. Nesse primeiro momento, é interessante
+          você ter um banco online no ambiente de desenvolvimento para conseguir treinar as 
+          funções assíncronas e colaborar com os seus colegas no mesmo banco de dados.
+
+          Até para não ocorrer o famoso: "Não funcionou no meu"
+        </p>
+
+        <div className="aspect-video mb-8">
+          <iframe
+            className="w-full h-full rounded-lg"
+            src="https://www.youtube.com/embed/6fngR7cEWmk"
+            title="YouTube video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
       </section>
     </div>
   );
