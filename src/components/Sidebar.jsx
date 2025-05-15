@@ -3,7 +3,8 @@ import { useState } from 'react';
 
 const modules = [
   { name: 'Módulo 1 - Introdução', path: '/modulo1' },
-  { name: 'Módulo 2 - Database', path: '/modulo2'}
+  { name: 'Módulo 2 - Database', path: '/modulo2'},
+  { name: 'Módulo 3 - Autenticação', path: '/modulo3'}
 ];
 
 export default function Sidebar() {

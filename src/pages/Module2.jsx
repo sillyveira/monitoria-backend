@@ -55,16 +55,16 @@ export default function Module1() {
           </a>
         </li>
         <li>
-            <a href="#cap3" className="text-blue-700 hover:underline">
-              Cap 3 - Migrando para o Mongoose
-            </a>
-          </li>
-          <li>
-            <a href="#cap4" className="text-blue-700 hover:underline">
-              Cap 4 - Deixando o projeto robusto
-            </a>
-          </li>
-          {/* <li>
+          <a href="#cap3" className="text-blue-700 hover:underline">
+            Cap 3 - Migrando para o Mongoose
+          </a>
+        </li>
+        <li>
+          <a href="#cap4" className="text-blue-700 hover:underline">
+            Cap 4 - Deixando o projeto robusto
+          </a>
+        </li>
+        {/* <li>
             <a href="#cap5" className="text-blue-700 hover:underline">
               Cáp 5 - Refactoring de Modularização
             </a>
@@ -215,16 +215,28 @@ export default function Module1() {
           ></iframe>
         </div>
 
-        <h2 id="cap3" className="text-2xl font-bold mb-4">
+        <h2 id="cap4" className="text-2xl font-bold mb-4">
           📘 Capítulo 4 – Deixando o projeto robusto
         </h2>
 
         <p className="mb-4">
-          Estamos nos encaminhando para conceitos mais avançados como criptografia de senha, autorização, autenticação... Para aprender da melhor forma iremos adicionar um propósito inspirado no Open Day do CIn!
+          Estamos nos encaminhando para conceitos mais avançados como
+          criptografia de senha, autorização, autenticação... Para aprender da
+          melhor forma iremos adicionar um propósito inspirado no Open Day do
+          CIn!
         </p>
 
-       <p className="mt-20">🚧 Material ainda sendo preparado 🚧</p>
-       <p>Atualizado pela última vez em: 14/05/25</p>
+        <div className="aspect-video mb-8">
+          <iframe
+            className="w-full h-full rounded-lg"
+            src="https://www.youtube.com/embed/JUTeizXn7kI"
+            title="YouTube video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+
+        <p>Atualizado pela última vez em: 14/05/25</p>
       </section>
     </div>
   );
