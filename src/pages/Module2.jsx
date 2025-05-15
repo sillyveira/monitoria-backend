@@ -46,25 +46,25 @@ export default function Module1() {
       <ul className="mb-6 space-y-2">
         <li>
           <a href="#cap1" className="text-blue-700 hover:underline">
-            Cáp 1 - Lidando com futuro e possibilidades
+            Cap 1 - Lidando com futuro e possibilidades
           </a>
         </li>
         <li>
-            <a href="#cap2" className="text-blue-700 hover:underline">
-              Cáp 2 - Criando o banco MongoDB Atlas
-            </a>
-          </li>
-          {/* <li>
+          <a href="#cap2" className="text-blue-700 hover:underline">
+            Cap 2 - Criando o banco MongoDB Atlas
+          </a>
+        </li>
+        <li>
             <a href="#cap3" className="text-blue-700 hover:underline">
-              Cáp 3 - Seu primeiro servidor
+              Cap 3 - Migrando para o Mongoose
             </a>
           </li>
           <li>
             <a href="#cap4" className="text-blue-700 hover:underline">
-              Cáp 4 - Criando um servidor Express + rotas
+              Cap 4 - Deixando o projeto robusto
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#cap5" className="text-blue-700 hover:underline">
               Cáp 5 - Refactoring de Modularização
             </a>
@@ -177,10 +177,10 @@ export default function Module1() {
           acessível pela internet, por meio do serviço Atlas do MongoDB,
           posteriormente vamos migrar esse banco para ser local, e assim, você
           mesmo hospedar o seu banco. Nesse primeiro momento, é interessante
-          você ter um banco online no ambiente de desenvolvimento para conseguir treinar as 
-          funções assíncronas e colaborar com os seus colegas no mesmo banco de dados.
-
-          Até para não ocorrer o famoso: "Não funcionou no meu"
+          você ter um banco online no ambiente de desenvolvimento para conseguir
+          treinar as funções assíncronas e colaborar com os seus colegas no
+          mesmo banco de dados. Até para não ocorrer o famoso: "Não funcionou no
+          meu"
         </p>
 
         <div className="aspect-video mb-8">
@@ -192,6 +192,39 @@ export default function Module1() {
             allowFullScreen
           ></iframe>
         </div>
+
+        <h2 id="cap3" className="text-2xl font-bold mb-4">
+          📘 Capítulo 3 – Migrando para o Mongoose
+        </h2>
+
+        <p className="mb-4">
+          Nesse episódio vamos lançar o nosso código para o github, assim nos
+          acostumamos com esse processo que se tornará cotidiano para vocês no
+          escopo de desenvolvimento de software. Além disso, iremos converter o
+          projeto para mongoose, facilitando o processo de validação dos dados
+          no futuro.
+        </p>
+
+        <div className="aspect-video mb-8">
+          <iframe
+            className="w-full h-full rounded-lg"
+            src="https://www.youtube.com/embed/YogqE0Y7xhY"
+            title="YouTube video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+
+        <h2 id="cap3" className="text-2xl font-bold mb-4">
+          📘 Capítulo 4 – Deixando o projeto robusto
+        </h2>
+
+        <p className="mb-4">
+          Estamos nos encaminhando para conceitos mais avançados como criptografia de senha, autorização, autenticação... Para aprender da melhor forma iremos adicionar um propósito inspirado no Open Day do CIn!
+        </p>
+
+       <p className="mt-20">🚧 Material ainda sendo preparado 🚧</p>
+       <p>Atualizado pela última vez em: 14/05/25</p>
       </section>
     </div>
   );

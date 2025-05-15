@@ -7,27 +7,27 @@ export default function Module1() {
       <ul className="mb-6 space-y-2">
         <li>
           <a href="#cap1" className="text-blue-700 hover:underline">
-            Cáp 1 - Boas-vindas e Contexto do Curso
+            Cap 1 - Boas-vindas e Contexto do Curso
           </a>
         </li>
         <li>
           <a href="#cap2" className="text-blue-700 hover:underline">
-            Cáp 2 - Introdução ao backend
+            Cap 2 - Introdução ao backend
           </a>
         </li>
         <li>
           <a href="#cap3" className="text-blue-700 hover:underline">
-            Cáp 3 - Seu primeiro servidor
+            Cap 3 - Seu primeiro servidor
           </a>
         </li>
         <li>
           <a href="#cap4" className="text-blue-700 hover:underline">
-            Cáp 4 - Criando um servidor Express + rotas
+            Cap 4 - Criando um servidor Express + rotas
           </a>
         </li>
         <li>
           <a href="#cap5" className="text-blue-700 hover:underline">
-            Cáp 5 - Refactoring de Modularização
+            Cap 5 - Refactoring de Modularização
           </a>
         </li>
         {/* <li>
