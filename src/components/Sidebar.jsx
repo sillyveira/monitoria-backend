@@ -12,7 +12,7 @@ export default function Sidebar() {
 
   return (
     <aside
-      className={`transition-all duration-300 ease-in-out bg-white shadow-lg p-4 ${
+      className={`transition-all duration-300 ease-in-out bg-white shadow-lg p-4 fixed h-full max-h-full ${
         isOpen ? 'w-64' : 'w-16'
       }`}
     >
